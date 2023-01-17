@@ -40,4 +40,4 @@ fgmPremixedFoam >& log&
 
 The steady-state solution of the proposed case should result in the contours according to
 
-![This is a alt text.](/sourcePV.png "title-1" =50%x)![alt-text-2](Temperature.png "title-2" =50%x)
+![This is a alt text.](/sourcePV.png "title-1"=50%x)![alt-text-2](Temperature.png "title-2"=50%x)
