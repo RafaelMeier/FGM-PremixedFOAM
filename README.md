@@ -43,4 +43,4 @@ The steady-state solution of the proposed case should result in the contours acc
 ![This is a alt text.](/images/sourcePV.png "title-1"=20%)![alt-text-2](/images/Temperature.png "title-2")
 
 
-<img src="/images/sourcePV.png" width="425"/> <img src="/images/Temperature.png" width="425"/> 
+<img src="/images/sourcePV.png" width="200"/> <img src="/images/Temperature.png" width="200"/> 
