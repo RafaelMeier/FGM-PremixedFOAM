@@ -38,7 +38,7 @@ blockMesh
 fgmPremixedFoam >& log&
 ```
 
-The steady-state solution of the proposed case should result in the contours according to
+The steady-state solution of the proposed case should result in the contours according to Figure below.
 
 
 <img src="/images/sourcePV.png" width="300"/> <img src="/images/Temperature.png" width="300"/> 
