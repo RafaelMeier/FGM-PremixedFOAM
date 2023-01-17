@@ -1,0 +1,47 @@
+ type            codedFixedValue;
+ value           uniform (0 0 0);
+ name            codedStuff;
+ codeInclude
+ #{
+ #};
+
+code
+#{
+
+  const fvPatch& boundaryPatch = patch();
+  const vectorField& Cf = boundaryPatch.Cf();
+  vectorField& field = *this;
+
+   const scalar r = 0.0025;
+   const scalar Sl_o =0.371;
+   const scalar uMean = 2*Sl_o;
+
+   // Poiseulle Flow
+   forAll(Cf, faceI)
+    {
+       const scalar y = Cf[faceI].y(); // y coordinate
+       const scalar u = 1.5*uMean*(1-( pow( (y-r)/r,2) ) );
+
+       field[faceI] = vector( u,0, 0);
+	  
+      }
+	  	  
+
+	  /*
+	  // Beltrami flow
+	  forAll(Cf, faceI)
+	  {
+	    const scalar x = Cf[faceI].x(); // x coordinate
+	    const scalar y = Cf[faceI].y(); // y coordinate
+	    
+	    // Poiseulle Flow
+	    const scalar u = 1.5*u_mean*(1-( pow( (y-r)/r,2) ) );
+
+	    field[faceI] = vector( u + a*u*( cos(K*x)*cos(K*y)),
+				   0 + a*u*( sin(K*x)*sin(K*y)),
+				   0);
+	  
+	   }
+	  */ 
+	  
+      #};

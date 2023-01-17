@@ -1,0 +1,6 @@
+./lookupFGM/lookupFGM.C
+./fgmThermo/fgmThermo.C
+
+LIB = $(FOAM_USER_LIBBIN)/libcombustionFGMModel
+
+

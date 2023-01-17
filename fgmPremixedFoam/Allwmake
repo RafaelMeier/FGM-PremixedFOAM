@@ -1,0 +1,12 @@
+#!/bin/bash
+set -e
+
+# 1. compile the combustion FGM model
+
+wmakeLnInclude -u combustionFGMModel
+
+wmake combustionFGMModel
+
+# 2. compile fgmPremixedFoam
+
+wmake fgmPremixedFoam
