@@ -29,7 +29,7 @@ wmake fgmPremixedFoam
 
 ### Test case
 
-It is provided a 2D Bunsen flame test case for a two-dimensional slab domain subject to a prescribed  Poiseuille inlet velocity.
+It is provided a 2D Bunsen flame test case for a two-dimensional slab domain subject to a prescribed  Poiseuille inlet velocity for stochiometric methane/air mixture at atmospheric conditions.
 
 To run the case just type in the terminal window the following command
 
