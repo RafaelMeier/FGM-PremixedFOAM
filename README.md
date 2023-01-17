@@ -2,7 +2,7 @@
 
 The FGM-PremixedFOAM is an OpenFOAM-based application that stands for Flamelet-Generated Manifold for direct numerical simulations of premixed flames.
 
-The Flamelet-Generated Manifold is a validated and widely used computational chemical reduction technique based on the assumption that most chemical time scales are very small compared to the flow time scales. In a time-scale analysis, the chemical time scales are assumed to be at steady-state compared to convection a diffusion transport processes.
+The Flamelet-Generated Manifold is a validated and widely used computational chemical reduction technique based on the assumption that most chemical time scales are very small compared to the flow scales. In a time-scale analysis, the chemical scales are assumed to be at steady-state compared to the convection and diffusion transport processes.
 
 The ```fgmPremixedFoam``` app is built from the ```rhoReactingBuoyantFoam``` where a new library named ```combustionFGMModel``` is called by the OpenFOAM. The ```rhoReactingBuoyantFoam``` is a native OpenFOAM solver that comes as an optional platform in ```reactingFoam```. The ```rhoReactingBuoyantFoam``` is a solver for chemical reactions using a density-based thermodynamics package with enhanced buoyancy treatment.
 
