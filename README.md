@@ -6,6 +6,11 @@ The Flamelet-Generated Manifold is a validated and widely used computational che
 
 The ```fgmPremixedFoam``` app is built from the ```rhoReactingBuoyantFoam``` where a new library named ```combustionFGMModel``` is called by the OpenFOAM. The ```rhoReactingBuoyantFoam``` is a native OpenFOAM solver that comes as an optional platform in ```reactingFoam```. The ```rhoReactingBuoyantFoam``` is a solver for chemical reactions using a density-based thermodynamics package with enhanced buoyancy treatment.
 
+If this code will used for any purpose reference it as
+
+R. Meier, Implementation of FGM model for premixed flames in OpenFOAM. In Proceedings of CFD with OpenSource Software, Sweden, 2022.http://dx.doi.org/10.17196/OS_CFD#YEAR_2022.
+
+
 ### Version
 
 OpenFOAM-v2112
