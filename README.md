@@ -8,7 +8,7 @@ The ```fgmPremixedFoam``` app is built from the ```rhoReactingBuoyantFoam``` whe
 
 If this code will used for any purpose reference it as
 
-R. Meier, Implementation of FGM model for premixed flames in OpenFOAM. In Proceedings of CFD with OpenSource Software, Sweden, 2022.http://dx.doi.org/10.17196/OS_CFD#YEAR_2022.
+R. Meier, "Implementation of FGM model for premixed flames in OpenFOAM", _In Proceedings of CFD with OpenSource Software_, Sweden, 2022. DOI: http://dx.doi.org/10.17196/OS_CFD#YEAR_2022.
 
 
 ### Version
